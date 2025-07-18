@@ -1,0 +1,133 @@
+a {text-decoration: none;color: black;}
+
+
+.login-button {
+  position: absolute;
+  background-color: white;
+  top: 20px;
+  right: 100px;
+  color: black;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px  solid black; width: 60px;
+  font-weight: bold;
+}
+
+.food-icon {
+   position: absolute;
+   top: 20px;
+  right: 190px;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px  solid black;
+  padding: 10px
+}
+
+.menu-icon {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  font-size: 36px;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  background: url(table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+input[type="email"] {
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+
+
+.hero {
+  text-align: center;
+}
+
+
+.recipes-section {
+    padding: 30px;
+    margin-left: 30px;
+}
+ 
+.section-header {
+    display: flex;
+    gap: 1100px;
+    align-items: center;
+}
+
+.recipes {
+    display: flex;
+    gap: 30px;
+    padding: 1em;
+    border-radius: 50px;
+    min-width: 200px;
+}
+
+.Starters {
+    background: #8ae1c5;
+    background-image: url(starter\ 2.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 300px;
+    width: 300px;
+}
+
+.Mains {
+    background: #000;
+    background-image: url(main\ course.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 300px;
+    width: 300px;
+}
+
+.Dessert {
+  background-image: url(Dessert.jpg);
+  background-size: cover;
+  color: #fff;
+  height: 300px;
+  width: 300px;
+}
+
+.Drinks {
+    background: #fef58a;
+    background-image: url(cocktail.avif);
+    background-size: cover;
+    color: #fff;
+    height: 300px;
+    width: 300px;
+}
+
+.arrow-btn {
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    align-items:last baseline;
+}
+
+.bottom{
+  text-align: left;
+  margin-top: 180px;
+}
+footer{
+    /*margin-top: 450px;*/
+text-align: center;
+padding: 5px;
+position: fixed;
+bottom: 7px;
+width: calc(100% - 25px);}

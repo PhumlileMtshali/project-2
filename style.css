@@ -1,0 +1,174 @@
+*{padding: 0;
+margin: 0;}
+
+a {text-decoration: none;
+  color: black;}
+
+
+
+.header{list-style-type: none;
+margin: 10px;
+padding: 20px;}
+
+button{cursor: pointer;}
+
+.login-button {
+  position: absolute;
+  background-color: white;
+  top: 20px;
+  right: 100px;
+  color: black;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px  solid black; width: 60px;
+  font-weight: bold;
+}
+
+.food-icon {
+   position: absolute;
+   top: 20px;
+  right: 190px;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px  solid black;
+  padding: 10px
+}
+
+.menu-icon {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  font-size: 36px;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  background-image: url(table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input[type="email"] {
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.Sign-up{display: flex;
+column-gap: 20px;}
+
+.heading {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.heading h1{
+margin: 5px;
+font-size: 40px;}
+
+.heading p {
+margin: 5px;
+font-style: italic;}
+
+form{
+margin: 5px;
+padding: 5px;}
+
+.recipes-section {
+    padding: 20px;
+    margin: 10px;
+}
+ 
+.section-header {
+    display: flex;
+    gap: 1000px;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 1px;
+}
+
+.section-header h2{
+margin: 10px;
+padding: 5px;
+}
+
+.section-header a{font-weight: bold;
+margin: 10px;
+padding: 5px;
+}
+
+.recipes {
+display: flex;
+justify-content: space-between;
+padding: 10px;
+margin-top: -35px;
+   
+}
+
+.Starters {
+    background-image: url(starter3.jpg);
+    background-size: cover;
+    color: black;
+    height: 280px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.Mains {
+    background-image: url(mains.jpg);
+    background-size: cover;
+    color:black;
+    height: 280px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.Dessert {
+  background-image: url(dessert3.jpg);
+  background-size: cover;
+  color: black;
+  height: 280px;
+  width: 300px;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+.Drinks {
+    background-image: url(cocktail\ drinks.jpg);
+    background-size: cover;
+    color:black;
+    height: 280px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.review{
+  text-align: left;
+  margin-top: 175px;
+  display: flex;
+  column-gap: 75px;
+}
+
+footer{display: flex;
+  margin: 10px;
+  padding: 10px;
+  column-gap: 10px;
+
+}
+
+footer p{margin-left: 600px;}
+
+
+
+
+
